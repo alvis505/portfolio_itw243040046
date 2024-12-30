@@ -243,7 +243,7 @@ nav .navlinks li a:hover {
 /* BAGIAN ABOUTT *****************************************************************************************/
 .about_container {
   width: 100%;
-  padding: 50px 8%;
+  padding: 100px 8%;
   background-color: #08090c;
   min-height: 100vh;
 }
@@ -365,11 +365,12 @@ nav .navlinks li a:hover {
   transition: all 0.4s;
   margin-top: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .abot:hover {
-  color: #6200ff;
-  border-color: #3b4ca4;
+  color: #ffffff;
+  border-color: #ffffff;
   font-weight: bolder;
   transition: all 0.5s;
 }
@@ -389,7 +390,7 @@ nav .navlinks li a:hover {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding: 30px 10%;
+  padding: 100px 10%;
   background-color: #2b2626;
   color: #e5e5e5;
 }
@@ -533,6 +534,7 @@ nav .navlinks li a:hover {
 }
 
 /* BAGIAN SERVICE ****************************************************************/
+
 .ser {
   font-size: 2.5em;
   text-align: center;
@@ -541,6 +543,7 @@ nav .navlinks li a:hover {
   margin-bottom: 30px;
   margin-top: 20px;
   color: white;
+  padding-top: 100px;
 }
 
 .services {
