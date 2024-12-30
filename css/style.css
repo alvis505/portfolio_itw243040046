@@ -365,7 +365,6 @@ nav .navlinks li a:hover {
   transition: all 0.4s;
   margin-top: 20px;
   font-weight: bold;
-  cursor: pointer;
 }
 
 .abot:hover {
