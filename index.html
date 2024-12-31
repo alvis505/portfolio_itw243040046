@@ -17,6 +17,8 @@
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
   </head>
   <body>
@@ -50,24 +52,24 @@
         <!-- HOME ------------------------------------------------------------------>
         <section class="Home" id="Home">
         <div class="container">
-          <div class="hero-img">
+          <div class="hero-img" data-aos="zoom-in" data-aos-duration="1300">
             <img src="img/1.png" alt="profile-img" />
           </div>
           <div class="hero-text">
-              <h4>Hi I'm <span class="input">Frontend Developer</span></h4>
-              <h1>Muhammad Alvis</h1>
-              <p>
+              <h4 data-aos="fade-down" data-aos-duration="1300">Hi I'm <span class="input">Frontend Developer</span></h4>
+              <h1 data-aos="fade-right" data-aos-duration="1300">Muhammad Alvis</h1>
+              <p data-aos="fade-left" data-aos-duration="1300">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                   delectus dolorum quibusdam maiores magni quod rem in porro,
                   laborum, laudantium ex repellendus explicabo, autem molestiae!
                 </p>
                 
-                <div class="btn-group">
+                <div class="btn-group" data-aos="fade-up" data-aos-duration="1300">
                     <a href="https://www.linkedin.com/" class="btn active">Download CV</a>
                     <a href="#Contact" class="btn">Contact</a>
                 </div>
                 
-                <div class="social">
+                <div class="social" data-aos="fade-up" data-aos-duration="1400">
                   <a href="https://github.com/alvis505"><i class="fa-brands fa-github"></i></a>
                   <a href="https://www.instagram.com/viss/"><i class="fa-brands fa-facebook"></i></a>
                   <a href="https://www.instagram.com/viisss.__/"><i class="fa-brands fa-instagram"></i></a>
@@ -93,36 +95,36 @@
 <div class="about_container">
   <div class="about_content">
     <!-- image -->
-    <section class="imageSection">
+    <section class="imageSection" data-aos="zoom-in" data-aos-duration="1300">
       <img src="img/2.jpg" alt="" />
     </section>
     <!-- image selesai -->
 
     <!-- info -->
     <section class="infoSection">
-      <h1 class="h1About">About Me</h1>
-      <h2 class="h2About">
+      <h1 class="h1About" data-aos="fade-right" data-aos-duration="1300">About Me</h1>
+      <h2 class="h2About" data-aos="zoom-in" data-aos-duration="1300">
         Professional Frontend developer, UX Designer, Web Developer, etc
         having 10 year of experience
       </h2>
-      <p class="pAbout">
+      <p class="pAbout" data-aos="fade-left" data-aos-duration="1300">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima,
         aspernatur eveniet! Harum, accusamus? Tenetur, necessitatibus. Lorem
         ipsum dolor sit amet
       </p>
-      <p class="pAbout">
+      <p class="pAbout" data-aos="fade-left" data-aos-duration="1300">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel,
         consectetur!
       </p>
 
-      <div class="personalInfo">
+      <div class="personalInfo" data-aos="fade-up" data-aos-duration="1300">
         <div><span>Name:</span><span>Muhammad Alvis Rafiffawaz</span></div>
         <div><span>Age:</span><span>19 years</span></div>
         <div><span>Email:</span><span>wrk@gmail.com</span></div>
         <div><span>Address:</span><span>Kota Bandung</span></div>
       </div>
 
-      <div class="button">
+      <div class="button" data-aos="fade-right" data-aos-duration="1300">
         <button class="abot"><a href="https://www.linkedin.com/">Portfolio</a></button>
       </div>
     </section>
@@ -145,7 +147,7 @@
       
       <!--   *******  judul  *******   -->
     
-      <div class="main-title">
+      <div class="main-title" data-aos="zoom-out-down" data-aos-duration="1300">
         <h1>My Skills</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -154,16 +156,13 @@
       <!--   *******  judul selesai  *******   -->
     
       <div class="row">
-        
-        skill selesaii
-    
         <section class="col">
           
-          <div class="sub-title">
+          <div class="sub-title" data-aos="fade-right" data-aos-duration="1300">
             <h2>Programming Skills</h2>
           </div>
     
-          <div class="skills-container3">
+          <div class="skills-container3" data-aos="fade-right" data-aos-duration="1300">
             
             <div class="skill">
               <div class="subject">HTML</div>
@@ -211,8 +210,8 @@
         <!-- Service ----------------------------------------------------------------------------------->
         <section class="Service" id="Service">
             <!-- <div class="container4"> -->
-            <h1 class="ser">Service</h1>
-            <div class="services">
+            <h1 class="ser" data-aos="fade-down" data-aos-duration="1300">Service</h1>
+            <div class="services" data-aos="fade-left" data-aos-duration="1300">
       
               <div class="box">
                   <i class="fa fa-mouse fa-3x"></i>
@@ -269,6 +268,9 @@
 <!-- Contact ------------------------------------------------------------------------------------------>
         <section class="Contact" id="Contact">
           <section class="contact-section">
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <div class="container4">
               <h2>Hubungi Saya</h2>
               <p>
@@ -290,6 +292,7 @@
                 </div>
                 <button type="submit" class="submit">Kirim</button>
               </form>
+            </div>
             </div>
           </section>
       </section>
@@ -340,6 +343,11 @@
 
      <!--scroll reveal effect-->
      <script src="https://unpkg.com/scrollreveal"></script>
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
 
     <!-- link js -->
     <script src="js/script.js"></script>
